@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+ int a,b;
+ printf("Enter the value of a and b");
+ scanf("%d%d",&a,&b);
+ //here,we used -a so a gets decremented first then gets saved to variable 'a'
+ printf("Unary Minus=%d\n",-a);
+ //here,we used a++ so a gets used first and then gets incremented
+ printf("Increment =%d\n ",a++);
+ printf("Decrement =%d\n ",a--);
+ // Binary Operator
+ printf("Sum =%d\n",a+b);
+ printf("Difference =%d\n ",a ,b);
+ printf("Mul =%d\n ",a*b);
+ printf("Division =%d\n ",a/b);
+ printf("Modulo =%d\n ",a%b);
+}
